@@ -17,7 +17,6 @@ class SqfliteDatabase {
     print('Database created and tables initialized');
     await db.execute(ExpenseTable.create); // Create the expenses table
     await db.execute(TotalsTable.create); // Create the totals table
-    // insertTotal(0.0);
   }
 
   // Get the database path
